@@ -4,6 +4,7 @@ import './App.css'
 import { Container, Nav, Navbar, Row, Col, Card, Button, ButtonGroup } from 'react-bootstrap'
 import TodoForm from './components/TodoForm'
 import TodoList from './components/TodoList'
+import ContactPage from './components/ContactPage';
 
 function App() {
     const [todos, setTodos] = useState([
