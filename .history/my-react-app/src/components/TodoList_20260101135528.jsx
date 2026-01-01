@@ -21,20 +21,4 @@ const TodoList= ({ todos, onToggle, onDelete, onEdit }) => {
                                     onToggle={onToggle}
                                     onDelete={onDelete}
                                     onEdit={onEdit}
-                                />
-                             ))}
-                        {todos.length === 0 && (
-                            <ListGroup.Item className='text-center text-muted'>No tasks yet!
-                            </ListGroup.Item>
-                        )
-                    }
-                        </ListGroup>
-
-                    )
-                }
-            </Container>
-        </>
-    )
-}
-
-export default TodoList;
+       
